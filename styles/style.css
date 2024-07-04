@@ -5,7 +5,6 @@
 }
 /* Header Section Styles*/
 .header-container {
-  border: 2px solid red;
   max-width: 1440px;
   height: 1079px;
   background: #1b3936;
@@ -13,6 +12,7 @@
   background-position: center center;
   background-blend-mode: overlay;
   position: relative;
+  overflow: hidden;
 }
 .line-container {
   width: 1188px;
@@ -120,7 +120,7 @@
 }
 .span {
   color: #fff;
-  font-family: "Boska Variable";
+  font-family: "Boska", serif;
   font-size: 32px;
   font-style: medium;
   font-weight: 700;
@@ -194,3 +194,219 @@
   cursor: pointer;
 }
 /* Header Section Styles Ends Here*/
+/* Second Section Styles starts Here*/
+.main-section {
+}
+.second-section-container {
+  max-width: 1440px;
+  height: 842px;
+  min-height: 842px;
+  display: flex;
+  background-color: #f9f9f9;
+}
+.left-content {
+  height: 100%;
+  width: 50%;
+}
+.right-content {
+  height: 100%;
+  width: 50%;
+}
+.cirle-with-icon {
+  width: 203px;
+  height: 276.08px;
+  border-radius: 49%;
+  background-color: #75ff69;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 105px;
+  margin-top: 105px;
+  position: relative;
+  margin-bottom: 41px;
+}
+
+.vector-image-12 {
+  position: absolute;
+  left: 50%;
+  bottom: 65%;
+}
+.vector-image-8 {
+  position: absolute;
+  left: 43%;
+  bottom: 79%;
+}
+.vector-image-7 {
+  position: absolute;
+  left: 43%;
+  bottom: 75%;
+}
+.vector-image-6 {
+  position: absolute;
+  left: 43%;
+  bottom: 71%;
+}
+.vector-image-1 {
+  position: absolute;
+  left: 20%;
+  bottom: 40%;
+}
+.vector-image-2 {
+  position: absolute;
+  left: 80%;
+  bottom: 40%;
+}
+.vector-image-99 {
+  position: absolute;
+  left: 13%;
+  bottom: 57%;
+}
+.vector-image-98 {
+  position: absolute;
+  left: 13%;
+  bottom: 53%;
+}
+.vector-image-97 {
+  position: absolute;
+  left: 13%;
+  bottom: 49%;
+}
+.vector-image-96 {
+  position: absolute;
+  left: 13%;
+  bottom: 45%;
+}
+.vector-image-95 {
+  position: absolute;
+  left: 73%;
+  bottom: 57%;
+}
+.vector-image-94 {
+  position: absolute;
+  left: 73%;
+  bottom: 53%;
+}
+.vector-image-93 {
+  position: absolute;
+  left: 73%;
+  bottom: 49%;
+}
+.vector-image-92 {
+  position: absolute;
+  left: 73%;
+  bottom: 45%;
+}
+.letter-g {
+  width: 81px;
+  height: 108px;
+  color: #1b3936;
+  text-align: center;
+  font-family: "Boska", serif;
+  font-size: 151.773px;
+  font-style: italic;
+  font-weight: 400;
+}
+.text-details {
+  width: 609px;
+  height: 128px;
+  margin-left: 103px;
+  text-align: left;
+}
+.text-details p {
+  color: #1b3936;
+  font-family: "Switzer Variable";
+  font-size: 20px;
+  font-style: normal;
+}
+.right-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-div {
+  width: 252px;
+  height: 130px;
+  margin-top: 119px;
+  position: relative;
+}
+.first-div h1 {
+  color: #1b3936;
+  font-family: "Boska", serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.first-div p {
+  font-size: 25px;
+  font-weight: 700;
+}
+.m2-1 {
+  position: absolute;
+  left: 105%;
+  top: 90%;
+}
+.second-div {
+  width: 252px;
+  height: 130px;
+  margin-top: 119px;
+  position: relative;
+}
+.second-div h1 {
+  color: #1b3936;
+  font-family: "Boska", serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.second-div p {
+  font-size: 25px;
+  font-weight: 700;
+}
+.m2-2 {
+  position: absolute;
+  left: 60%;
+  top: 90%;
+}
+.third-div {
+  width: 252px;
+  height: 130px;
+  margin-top: 119px;
+  position: relative;
+}
+.third-div h1 {
+  color: #1b3936;
+  font-family: "Boska", serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.third-div p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.m2-3 {
+  position: absolute;
+  left: 40%;
+  top: 80%;
+}
+/* Second Section Styles Ends Here*/
+.cover-image-container {
+  max-width: 1440px;
+  height: 850px;
+  background-image: url("/assets/images/banner-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(1.5);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+.cover-image-container img {
+  width: 100%;
+  height: 100%;
+}
