@@ -646,11 +646,13 @@
   background-image: url("/assets/images/banner-bg.png");
   background-position: center center;
   background-blend-mode: overlay;
-  padding: 123px;
+  position: relative;
+  margin-bottom: 70px;
 }
 .bg-container {
-  margin: 0 auto;
+  width: 1200px;
   height: 610px;
+  margin: 0 auto;
   background-image: url("/assets/images/BG.png");
   background-position: center;
   background-size: cover;
@@ -658,6 +660,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 15%;
+  left: 8%;
 }
 .discount {
   width: 603px;
@@ -718,3 +723,10 @@
   margin-top: 30px;
 }
 /* Sign Up Section Style ends here */
+/* Wilderness retreat section starts here  */
+.retreat-container {
+  max-width: 1440px;
+  height: 1056px;
+  border: 2px solid red;
+}
+/* Wilderness retreat section starts here  */
