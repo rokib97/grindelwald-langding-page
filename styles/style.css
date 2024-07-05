@@ -396,6 +396,7 @@
   top: 80%;
 }
 /* Second Section Styles Ends Here*/
+/* cover Image Section Styles starts Here*/
 .cover-image-container {
   max-width: 1440px;
   height: 850px;
@@ -410,3 +411,105 @@
   width: 100%;
   height: 100%;
 }
+/* cover Image Section Styles ends Here*/
+/* About Us Section Styles starts Here*/
+.about-us {
+  position: relative;
+  max-width: 1440px;
+  height: 1701px;
+
+  background: #1b3936;
+  background-image: url("/assets/images/banner-bg.png");
+  background-position: center center;
+  background-blend-mode: overlay;
+}
+.about-us-container {
+  display: flex;
+}
+.left-about-us {
+  height: 100%;
+  width: 50%;
+}
+.right-about-us {
+  height: 100%;
+  width: 50%;
+}
+.first-image {
+  width: 401px;
+  height: 342px;
+  margin-top: 321px;
+  margin-left: 38px;
+  margin-bottom: 285px;
+}
+.first-image img {
+  width: 100%;
+  height: 100%;
+}
+.second-image {
+  width: 401px;
+  height: 531px;
+  margin-left: 149px;
+}
+.second-image img {
+  width: 100%;
+  height: 100%;
+}
+.third-image {
+  width: 401px;
+  height: 526px;
+  margin-top: 76px;
+  margin-right: 61px;
+  margin-left: 258px;
+  margin-bottom: 378px;
+}
+.third-image img {
+  width: 100%;
+  height: 100%;
+}
+.fourth-image {
+  width: 401px;
+  height: 531px;
+  margin-left: 162px;
+}
+.fourth-image img {
+  width: 100%;
+  height: 100%;
+}
+.about-us-text-container {
+  width: 1083;
+  height: 880;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.about-us-text-container h1 {
+  color: #678784;
+  font-family: "Boska", serif;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: center;
+}
+.highlight {
+  color: #fff;
+  font-family: "Boska", serif;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: center;
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 83%;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+/* About Us Section Styles ends Here*/
