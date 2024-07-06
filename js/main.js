@@ -18,4 +18,3 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // second slider js implementation
-//

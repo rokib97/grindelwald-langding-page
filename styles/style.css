@@ -737,6 +737,9 @@
   margin-top: 30px;
 }
 /* Sign Up Section Style ends here */
+
+/* Example for displaying the first three slides */
+
 /* Wilderness retreat section starts here  */
 .retreat-container {
   max-width: 1440px;
@@ -776,6 +779,7 @@
   height: 557px;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 .retreat-slide-left {
   width: 378px;
@@ -796,6 +800,7 @@
   right: 66%;
   background-color: #ffffff;
   padding: 10px;
+  z-index: 10;
 }
 .left-slide-content p {
   mask-image: linear-gradient(
@@ -829,6 +834,7 @@
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   padding: 10px;
+  z-index: 10;
 }
 .middle-slide-content p {
   mask-image: linear-gradient(
@@ -862,6 +868,7 @@
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   padding: 10px;
+  z-index: 10;
 }
 .right-slide-content p {
   mask-image: linear-gradient(
@@ -1095,17 +1102,18 @@
   height: 60px;
   margin-left: 232px;
   margin-right: 232px;
-  margin-top: 19px;
 }
 .footer-nav-items {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+  margin-top: 20px;
 }
 .footer-nav-items p {
   color: #1b3936;
   font-family: "Switzer Variable", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
 }
 /* Footer section ends here  */
