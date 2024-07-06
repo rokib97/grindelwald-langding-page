@@ -728,10 +728,6 @@
   max-width: 1440px;
   height: 1056px;
 }
-.retreat-container {
-  max-width: 1440px;
-  height: 1036px;
-}
 .retreat-upper-part {
   height: 418px;
   display: flex;
@@ -782,7 +778,7 @@
   border: 2px solid #ffff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   position: absolute;
-  bottom: 24%;
+  bottom: 20%;
   right: 66%;
   background-color: #ffffff;
   padding: 10px;
@@ -813,7 +809,7 @@
   width: 410px;
   height: 152px;
   position: absolute;
-  bottom: 24%;
+  bottom: 20%;
   right: 33.8%;
   border: 2px solid #ffff;
   background-color: #ffffff;
@@ -846,7 +842,7 @@
   width: 426px;
   height: 152px;
   position: absolute;
-  bottom: 24%;
+  bottom: 20%;
   right: 0%;
   border: 2px solid #ffff;
   background-color: #ffffff;
@@ -908,3 +904,194 @@
   cursor: pointer;
 }
 /* Wilderness retreat section ends here  */
+/* Footer section ends here  */
+.footer-container {
+  max-width: 1440px;
+  height: 912px;
+  margin-top: 95px;
+  position: relative;
+}
+.get-to-know {
+  height: 532px;
+
+  display: flex;
+}
+.get-t0-know-heading {
+  width: 711px;
+  height: 176px;
+  margin-left: 183px;
+  margin-bottom: 7px;
+  margin-top: 78px;
+}
+.get-t0-know-heading h1 {
+  color: #1b3936;
+  font-family: "Boska", serif;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.get-to-know-title p {
+  margin-left: 183px;
+  color: #1b3936;
+  font-family: "Switzer Variable";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 76px;
+}
+.lets-talk {
+  width: 200px;
+  height: 60px;
+  margin-left: 183px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #1b3936;
+  font-family: "Switzer Variable";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  border: 2px solid #1b3936;
+}
+.get-to-know-image {
+  width: 203px;
+  height: 276.08px;
+  border-radius: 49%;
+  background-color: #75ff69;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 133px;
+  margin-left: 151px;
+}
+.contact-info {
+  height: 320px;
+
+  display: flex;
+}
+.about {
+  width: 480px;
+  height: 320px;
+  background-color: #75ff69;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.about h1 {
+  color: #1b3936;
+  font-family: "Boska", serif;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.about p {
+  color: #1b3936;
+  font-family: "Switzer Variable";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about-vector-one {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+}
+.about-vector-two {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+}
+.about-icon {
+  position: relative;
+}
+.rooms-contact {
+  width: 960px;
+  height: 320px;
+  background: #1b3936;
+  background-image: url("/assets/images/banner-bg.png");
+  background-position: center center;
+  background-blend-mode: overlay;
+  display: flex;
+}
+.rooms {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rooms p {
+  color: #fff;
+  font-family: "Switzer Variable";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 125px;
+  margin-bottom: 10px;
+}
+.rooms h1 {
+  color: #fff;
+  font-family: "Boska", serif;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+}
+.contact {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact p {
+  color: #fff;
+  font-family: "Switzer Variable";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 125px;
+  margin-bottom: 10px;
+}
+.contact h1 {
+  color: #fff;
+  font-family: "Boska", serif;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+}
+.contact-vector-one {
+  position: absolute;
+  bottom: 16%;
+  left: 58%;
+}
+.contact-vector-two {
+  position: absolute;
+  bottom: 16%;
+  left: 91%;
+}
+.navigation-info {
+  height: 60px;
+  margin-left: 232px;
+  margin-right: 232px;
+  margin-top: 19px;
+}
+.footer-nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-nav-items p {
+  color: #1b3936;
+  font-family: "Switzer Variable";
+  font-size: 18px;
+  font-style: normal;
+}
+/* Footer section ends here  */
