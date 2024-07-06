@@ -1,4 +1,5 @@
 /* font family  */
+@import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
 @font-face {
   font-family: "Switzer Variable";
   src: url("/fonts/Switzer-Variable.woff2") format("woff2"),
@@ -46,6 +47,7 @@
   color: #fff;
   margin-right: 54px;
   font-size: 18px;
+  font-family: "Switzer Variable", serif;
 }
 .middle-items {
   display: flex;
@@ -63,6 +65,7 @@
   font-style: normal;
   font-weight: 400;
   color: #75ff69;
+  font-family: "Oranienbaum", serif;
 }
 .right-items {
   display: flex;
@@ -73,6 +76,7 @@
   color: #fff;
   margin-left: 54px;
   font-size: 18px;
+  font-family: "Switzer Variable", serif;
 }
 .line-container img {
   width: 100%;
