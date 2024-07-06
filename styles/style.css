@@ -1,3 +1,12 @@
+/* font family  */
+@font-face {
+  font-family: "Switzer Variable";
+  src: url("/fonts/Switzer-Variable.woff2") format("woff2"),
+    url("/fonts/Switzer-Variable.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* universal rules  */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -314,7 +323,7 @@
 }
 .text-details p {
   color: #1b3936;
-  font-family: "Switzer Variable";
+  font-family: "Switzer Variable", sans-serif;
   font-size: 20px;
   font-style: normal;
 }
@@ -343,6 +352,7 @@
 .first-div p {
   font-size: 25px;
   font-weight: 700;
+  font-family: "Boska", serif;
 }
 .m2-1 {
   position: absolute;
@@ -366,6 +376,7 @@
 .second-div p {
   font-size: 25px;
   font-weight: 700;
+  font-family: "Boska", serif;
 }
 .m2-2 {
   position: absolute;
@@ -389,6 +400,7 @@
 .third-div p {
   font-size: 20px;
   font-weight: 700;
+  font-family: "Boska", serif;
 }
 .m2-3 {
   position: absolute;
@@ -521,7 +533,7 @@
   left: 50%;
 }
 .about-us-watermark p {
-  font-family: "Switzer Variable";
+  font-family: "Switzer Variable", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -629,7 +641,7 @@
 }
 .cabin-text {
   color: #fff;
-  font-family: "Boska", serif;
+  font-family: "Switzer Variable", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -668,6 +680,7 @@
   width: 603px;
   height: 176px;
 }
+
 .discount h1 {
   color: #fff;
   text-align: center;
@@ -705,6 +718,7 @@
   font-size: 16px;
   height: 60px;
   width: 174px;
+  font-family: "Switzer Variable", serif;
 }
 .input-container button:hover {
   background-color: #45a049;
@@ -716,7 +730,7 @@
 .not-booring-text p {
   color: #fff;
   text-align: center;
-  font-family: "Switzer Variable";
+  font-family: "Switzer Variable", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -753,7 +767,7 @@
 }
 .retreat-right-title p {
   color: #1b3936;
-  font-family: "Switzer Variable";
+  font-family: "Switzer Variable", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -934,7 +948,7 @@
 .get-to-know-title p {
   margin-left: 183px;
   color: #1b3936;
-  font-family: "Switzer Variable";
+  font-family: "Switzer Variable", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -950,7 +964,7 @@
   align-items: center;
   text-align: center;
   color: #1b3936;
-  font-family: "Switzer Variable";
+  font-family: "Switzer Variable", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -993,7 +1007,7 @@
 }
 .about p {
   color: #1b3936;
-  font-family: "Switzer Variable";
+  font-family: "Switzer Variable", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1030,7 +1044,7 @@
 }
 .rooms p {
   color: #fff;
-  font-family: "Switzer Variable";
+  font-family: "Switzer Variable", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1053,7 +1067,7 @@
 }
 .contact p {
   color: #fff;
-  font-family: "Switzer Variable";
+  font-family: "Switzer Variable", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1090,7 +1104,7 @@
 }
 .footer-nav-items p {
   color: #1b3936;
-  font-family: "Switzer Variable";
+  font-family: "Switzer Variable", sans-serif;
   font-size: 18px;
   font-style: normal;
 }
