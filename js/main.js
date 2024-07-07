@@ -2,15 +2,17 @@
 const uniqueSlides = document.querySelectorAll(".slide img");
 const nextUniqueButton = document.getElementById("nextUnique");
 
-nextUniqueButton.addEventListener("click", () => {
+function slideImages() {
   const firstSlideSrc = uniqueSlides[0].src;
-
   for (let i = 0; i < uniqueSlides.length - 1; i++) {
     uniqueSlides[i].src = uniqueSlides[i + 1].src;
   }
-
   uniqueSlides[uniqueSlides.length - 1].src = firstSlideSrc;
-});
+}
+nextUniqueButton.addEventListener("click", slideImages);
+
+// Automatically run the slideImages function every 5 seconds
+setInterval(slideImages, 5000);
 
 // second slider script here
 const slider = document.querySelector(".unique-slider");
