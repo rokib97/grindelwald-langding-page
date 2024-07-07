@@ -1,26 +1,15 @@
 // first slider script here
-document.addEventListener("DOMContentLoaded", () => {
-  const images = [
-    "./assets/images/slide1.png",
-    "./assets/images/slide2.png",
-    "./assets/images/slide3.png",
-  ];
-  let currentImageIndex = 0;
-  const button = document.getElementById("next");
-  const imageElements = document.querySelectorAll(".slider .slide img");
+const uniqueSlides = document.querySelectorAll(".slide img");
+const nextUniqueButton = document.getElementById("nextUnique");
 
-  const changeSlide = () => {
-    console.log("object");
-    currentImageIndex = (currentImageIndex + 1) % images.length;
-    for (let i = 0; i < imageElements.length; i++) {
-      imageElements[i].src = images[(currentImageIndex + i) % images.length];
-    }
-  };
+nextUniqueButton.addEventListener("click", () => {
+  const firstSlideSrc = uniqueSlides[0].src;
 
-  button.addEventListener("click", changeSlide);
+  for (let i = 0; i < uniqueSlides.length - 1; i++) {
+    uniqueSlides[i].src = uniqueSlides[i + 1].src;
+  }
 
-  // Set interval to change slide every 5 seconds
-  setInterval(changeSlide, 5000);
+  uniqueSlides[uniqueSlides.length - 1].src = firstSlideSrc;
 });
 
 // second slider script here
